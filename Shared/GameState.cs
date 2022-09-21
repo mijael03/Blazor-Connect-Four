@@ -38,7 +38,6 @@ public class GameState
         // Horizontal rows
         for (byte row = 0; row < 6; row++)
         {
-
             byte rowCol1 = (byte)(row * 7);
             byte rowColEnd = (byte)((row + 1) * 7 - 1);
             byte checkCol = rowCol1;
